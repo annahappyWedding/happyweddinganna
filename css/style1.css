@@ -1,0 +1,2945 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: grey;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 
+{
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment:fixed is parallax*/
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background:#FFFFFF;
+  min-height: 100%;
+
+}
+
+.pimg2 {
+  background-image: url(../images/bride.jpg);
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url(../images/dress/1.jpg);
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url(../images/7.jpg);
+  min-height: 400px;
+}
+
+
+
+
+
+
+.menu
+{
+  text-align: center;
+  height: auto;
+
+  
+  
+  
+}
+.menu ul li
+{
+  list-style-type: none; padding: 1%;
+}
+.menu ul li a
+{
+  text-align: center;
+  list-style-type:none;
+  font-size: 2.5em;
+ 
+text-decoration: none;
+
+  color: #DFC6C6;
+  font-family: 'Raleway', sans-serif;
+}
+
+.menu ul li a:hover
+{
+  color: #8DBADD;
+  transition: 2s;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
+.block2
+{
+  text-align: center;
+  padding: 40px 40px;
+  background: #FFFFFF;
+  height: 640px;
+}
+
+.block2 img
+{
+  width: 25%;
+  height: auto;
+  float: left;
+  padding: 2%;
+  margin-left: -2%;
+}
+
+.block2 img:hover
+{
+    cursor: pointer;
+    transition: 2s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.block2 p 
+{
+  text-align: justify;
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+}
+
+.block2 h2
+{
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+}
+
+
+
+
+
+
+
+.block1
+{
+  text-align: center;
+  padding: 40px 40px;
+  background: #FFFFFF;
+  height: 300px;
+  color: white;
+
+}
+
+.block1 p 
+{
+  width: 80%;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+  
+  margin-left:10%;
+}
+.block1 h2
+{
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+}
+
+
+
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.button1
+{
+  width:7%;
+  height: 25px; 
+  margin:1em 4em auto 5em;
+  background: #DFC6C6;
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Dosis', sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 15px 25px 14px 25px;
+  text-decoration: none;
+  margin-left: 46%;
+  float: left;
+}
+
+.button1:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.button1 a
+{
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
+}
+
+.button1 a:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.button2
+{
+  width:12%;
+  height: 25px; 
+  float: right;
+  margin-right: 15%;
+  margin-top: 5%;
+  background: #DFC6C6;
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Dosis', sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 15px 25px 14px 25px;
+  text-decoration: none;
+  
+}
+
+.button2:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+
+.button2 a
+{
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
+}
+
+.button2 a:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.button3
+{
+  width:6%;
+  height: 25px; 
+  float: left;
+  margin-right: 15%;
+  margin-top: 1%;
+  background: #DFC6C6;
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Dosis', sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 15px 25px 14px 25px;
+  text-decoration: none;
+  margin-left: 46%;
+  float: left;
+  
+}
+
+.button3:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.button3 a
+{
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
+}
+
+.button3 a:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.block3
+{
+  text-align: center;
+  padding: 40px 40px;
+  background: #FFFFFF;
+  height: auto;
+  color: white;
+}
+
+.block3 p 
+{
+  width: 80%;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+  margin-left:10%;
+}
+  
+.block3 h2
+{
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+}
+
+
+
+.footer 
+{
+  width: 100%;
+  height: 420px;
+  font-size: 20px;
+  background: #E1E5E9;
+  margin-top: 5%;
+}
+
+.footer img
+{
+  width: 3%;
+  height: auto;
+  float: left;
+  margin-left: 3%;
+  margin-top: 22.5%;
+  padding-right: 0.1em;
+  opacity: 0.6;
+  
+
+}
+
+.footer img:hover
+{
+    cursor: pointer;
+    transition: 2s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.textF 
+{
+  width: 20%;
+  float: left;
+  font-size: 1em;
+  margin-left: -21.5%;
+  color: #181A20;
+  margin-top:12%;
+  line-height: 3em;
+  font-family: 'Dosis', sans-serif;
+  
+}
+
+
+
+
+
+
+
+.forma
+{
+  width:30%;
+  height: 380px;
+  background: #FFFFFF;
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+/* Стили формы */
+#application {
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #DFC6C6;
+    font-size: 1em;
+
+}
+select, option
+{
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align-last: center;
+    color: #8DBADD;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+
+
+
+#applicationName, #applicationEmail, #applicationTelephone:hover
+{
+  cursor: pointer;
+  border-radius: 40px solid #DFC6C6;
+  
+}
+
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::-moz-placeholder  {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+ 
+:-moz-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+ 
+:-ms-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::placeholder {
+    color: #8DBADD;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #DFC6C6;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #8DBADD;
+    }
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*страница блог*/ 
+ .headerB
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #FFFFFF;
+ }
+
+  .headerB img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoB img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoB img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerB h1 
+{
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+.blockB
+{
+  width: 100%;
+  height: 700px;
+  float: left;
+  
+}
+
+.textB
+{
+  width: 70%;
+  height: 600px;
+  float: left;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color:#222B2F;
+  
+}
+  
+.textB h2
+{
+  font-size: 2em;
+  font-family: 'Dosis', sans-serif;
+  color:#222B2F;
+}
+
+.photoB 
+{
+  width: 100%;
+  height: 400px;
+  margin-top: 3%;
+  margin: auto;
+  float: left;
+}  
+  
+
+#blockPhotoB 
+{
+  width: 100%;
+  height:auto;
+  margin-top: 1%;
+  background: white;
+  text-align: center;
+  background: #DFC6C6;
+  display: flex;
+  justify-content: center;
+}  
+ 
+.view-tenth
+{
+  margin: 3%;
+} 
+.view-tenth img
+{
+  float:left;
+  width:100%;
+  height:auto;
+  opacity:0.9;   
+}
+
+.view
+{
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+
+}
+ .view:hover
+ {
+  background: rgba(255,255,255,0.8)
+
+ }
+.view .mask
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+
+
+}
+
+.view-second:hover .mask
+{
+  cursor: pointer;
+  opacity: 1;
+  transform: translate(-80px, -125px) rotate(45deg);
+  -webkit-transform: translate(-80px, -125px) rotate(45deg);
+
+}
+
+.view-second:hover h2 
+{
+  cursor: pointer;  
+  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  transition-delay: 0.3s;
+  -webkit-transition-delay: 0.3s;
+}
+
+.view-second:hover p {
+  transform: translate(0px, 0px);
+  -webkit-transform: translate(0px, 0px);
+  transition-delay: 0.4s;
+  -webkit-transition-delay: 0.4s;
+}
+
+.view-tenth img
+{
+  transform: scaleY(1);
+  transition: all .7s ease-in-out;
+}
+
+.view-tenth .mask 
+{
+  background-color: rgba(223, 188, 217, 0.1);
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.view-tenth h2 
+{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  background: transparent;
+  margin: 20px 40px 0px 40px;
+  transform: scale(0);
+  color: #3C494B;
+  transition: all 0.5s linear;
+  opacity: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+.view-tenth p 
+{
+  font-family: 'Ubuntu', sans-serif;
+  color: #3C494B;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.5s linear;
+  padding:30px;
+  font-size: 0.5em;
+}
+
+.view-tenth a.info 
+{
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.5s linear;
+}
+
+.view-tenth:hover img 
+{
+  cursor: pointer;
+  -webkit-transform: scale(10);
+  transform: scale(10);
+  opacity: 0;
+}
+
+.view-tenth:hover .mask 
+{
+  opacity: 1;
+}
+
+.view-tenth:hover h2,
+.view-tenth:hover p,
+.view-tenth:hover a.info {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.footerB 
+{
+  width: 100%;
+  height: 420px;
+  font-size: 20px;
+  background: #E1E5E9;
+  margin-top: 5%;
+  float: left;
+}
+
+.footerB img
+{
+  width: 3%;
+  height: auto;
+  float: left;
+  margin-left: 3%;
+  margin-top: 22.5%;
+  padding-right: 0.1em;
+  opacity: 0.6;
+  
+
+}
+
+.footerB img:hover
+{
+    cursor: pointer;
+    transition: 2s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.textF 
+{
+  width: 20%;
+  float: left;
+  font-size: 0.8em;
+  margin-left: -21.5%;
+  color: #181A20;
+  margin-top:12%;
+  line-height: 2%;
+  
+}
+
+.forma
+{
+  width:30%;
+  height: 380px;
+  background: #FFFFFF;
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+/* Стили формы */
+#application {
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #DFC6C6;
+    font-size: 1em;
+
+}
+select, option
+{
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align-last: center;
+    color: #8DBADD;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#applicationName, #applicationEmail, #applicationTelephone:hover
+{
+  cursor: pointer;
+  border-radius: 40px solid #DFC6C6;
+  
+}
+
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::-moz-placeholder  {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+ 
+:-moz-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+ 
+:-ms-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::placeholder {
+    color: #8DBADD;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #DFC6C6;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #8DBADD;
+    }
+
+
+
+
+
+ 
+
+
+
+
+
+ /*страница "о нас"*/ 
+
+ .headerA
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+
+  
+ }
+
+  .headerA img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoA img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoA img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerA h1 
+{
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+.blockA
+{
+  width: 100%;
+  height: 500px;
+  float: left;
+  
+  
+}
+
+.textA
+{
+  width: 70%;
+  height: 500px;
+  float: left;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color:#222B2F;
+  
+}
+  
+.textA h2
+{
+  font-size: 2em;
+  font-family: 'Dosis', sans-serif;
+  color:#222B2F;
+}
+
+.footerA 
+{
+  width: 100%;
+  height: 420px;
+  font-size: 20px;
+  background: #E1E5E9;
+  
+  float: left;
+}
+
+.footerA img
+{
+  width: 3%;
+  height: auto;
+  float: left;
+  margin-left: 3%;
+  margin-top: 22.5%;
+  padding-right: 0.1em;
+  opacity: 0.6;
+  
+
+}
+
+.footerA img:hover
+{
+    cursor: pointer;
+    transition: 2s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.textF 
+{
+  width: 20%;
+  float: left;
+  font-size: 0.8em;
+  margin-left: -21.5%;
+  color: #181A20;
+  margin-top:12%;
+  line-height: 2%;
+  
+}
+
+.forma
+{
+  width:30%;
+  height: 380px;
+  background: #FFFFFF;
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+/* Стили формы */
+#application {
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #DFC6C6;
+    font-size: 1em;
+
+}
+select, option
+{
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align-last: center;
+    color: #8DBADD;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#applicationName, #applicationEmail, #applicationTelephone:hover
+{
+  cursor: pointer;
+  border-radius: 40px solid #DFC6C6;
+  
+}
+
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::-moz-placeholder  {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+ 
+:-moz-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+ 
+:-ms-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::placeholder {
+    color: #8DBADD;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #DFC6C6;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #8DBADD;
+    }
+
+
+
+
+
+
+
+
+
+
+/*страница "dress"*/ 
+
+
+.headerD
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+
+  
+ }
+
+  .headerD img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoD img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoD img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerD h1 
+{
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*страница "party"*/ 
+
+.headerP
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+
+  
+ }
+
+  .headerP img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoP img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoP img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerP h1 
+{
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+.blockP
+{
+  width: 100%;
+  height: 400px;
+  float: left;
+  
+  
+}
+
+.textP
+{
+  width: 70%;
+  height: 400px;
+  float: left;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color:#222B2F;
+  
+}
+  
+.textP h2
+{
+  font-size: 2em;
+  font-family: 'Dosis', sans-serif;
+  color:#222B2F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gallery {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2em;
+  
+ 
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 0.4em;
+  
+  padding-bottom: 5%;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 200px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.7,1.7);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*страница contact*/ 
+ .headerC
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+  
+ }
+
+  .headerC img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoC img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoC img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerC h1 
+{
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+.blockC
+{
+  width: 100%;
+  height: auto;
+  float: left;
+  
+}
+
+.textC
+{
+  width: 70%;
+  height: auto;
+  float: left;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color:#222B2F;
+  
+}
+  
+.textC h2
+{
+  font-size: 2em;
+  font-family: 'Dosis', sans-serif;
+  color:#222B2F;
+}
+
+
+.footerC 
+{
+  width: 100%;
+  height: 420px;
+  font-size: 20px;
+  background: #E1E5E9;
+  margin-top: 5%;
+  float: left;
+}
+
+.footerC img
+{
+  width: 3%;
+  height: auto;
+  float: left;
+  margin-left: 3%;
+  margin-top: 22.5%;
+  padding-right: 0.1em;
+  opacity: 0.6;
+  
+
+}
+
+.footerC img:hover
+{
+    cursor: pointer;
+    transition: 2s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.textF 
+{
+  width: 20%;
+  float: left;
+  font-size: 0.8em;
+  margin-left: -21.5%;
+  color: #181A20;
+  margin-top:12%;
+  line-height: 2%;
+  
+}
+
+.forma
+{
+  width:30%;
+  height: 380px;
+  background: #FFFFFF;
+  float: right;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+/* Стили формы */
+#application {
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #DFC6C6;
+    font-size: 1em;
+
+}
+select, option
+{
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align-last: center;
+    color: #8DBADD;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#applicationName, #applicationEmail, #applicationTelephone:hover
+{
+  cursor: pointer;
+  border-radius: 40px solid #DFC6C6;
+  
+}
+
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::-moz-placeholder  {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+ 
+:-moz-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+ 
+:-ms-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::placeholder {
+    color: #8DBADD;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #DFC6C6;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #8DBADD;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+
+  body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: grey;
+
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 
+{
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-attachment:fixed is parallax*/
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background:#FFFFFF;
+  
+  width: 100%;
+  height: auto;
+}
+
+.pimg2 {
+  background-image: url(../images/bride.jpg);
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url(../images/dress/1.jpg);
+  min-height: 400px;
+}
+
+.pimg4 {
+  background-image: url(../images/7.jpg);
+  min-height: 400px;
+}
+
+
+.menu
+{
+  text-align: center;
+  height: auto;
+}
+  
+
+.menu ul li
+{
+  list-style-type: none; padding: 0.5%;
+}
+.menu ul li a
+{
+  text-align: center;
+  list-style-type:none;
+  font-size: 1em;
+ 
+text-decoration: none;
+
+  color: #DFC6C6;
+  font-family: 'Raleway', sans-serif;
+}
+
+.menu ul li a:hover
+{
+  color: #8DBADD;
+  transition: 2s;
+  cursor: pointer;
+  text-decoration: underline;
+
+}
+
+
+.block2
+{
+  text-align: center;
+  padding: 20px 20px;
+  background: #FFFFFF;
+  height: 560px;
+
+}
+
+.block2 img
+{ 
+  display: none;
+}  
+  
+.block2 p 
+{
+  width: 80%;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+  font-size: 0.6em;
+  margin-left: 10%;
+}
+
+.block2 h2
+{
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+  font-size: 1em;
+}
+
+.block1
+{
+  text-align: center;
+  padding: 20px 20px;
+  background: #FFFFFF;
+  height: 400px;
+  color: white;
+}  
+
+.block1 p 
+{
+  width: 80%;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+  font-size: 0.6em;
+  margin-left:10%;
+}
+.block1 h2
+{
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+  font-size: 1em;
+}
+
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em;
+
+}
+
+.button1
+{
+  width:14%;
+  height: 15px; 
+  
+  background: #DFC6C6;
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Dosis', sans-serif;
+  color: #ffffff;
+  font-size: 0.7em;
+  padding-top: 2%;
+  text-decoration: none;
+  margin-left: 38%;
+  float: left;
+}
+
+.button1:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.button1 a
+{
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
+}
+
+.button1 a:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.button2
+{
+  width:22%;
+  height: 15px; 
+  float: left;
+  margin-left:35%;
+  margin-top: 2%;
+  background: #DFC6C6;
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Dosis', sans-serif;
+  color: #ffffff;
+  font-size: 0.7em;
+  
+  text-decoration: none;
+  
+}
+
+.button2:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+
+.button2 a
+{
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
+}
+
+.button2 a:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.button3
+{
+  width:15%;
+  height: 15px; 
+  float: left;
+  margin-right: 15%;
+  margin-bottom: 9%;
+  background: #DFC6C6;
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Dosis', sans-serif;
+  color: #ffffff;
+  font-size: 0.7em;
+  
+  text-decoration: none;
+  margin-left: 40%;
+  float: left;
+  
+}
+
+.button3:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.button3 a
+{
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
+}
+
+.button3 a:hover
+{
+  cursor: pointer;
+  transition: 2s;
+  
+  background: #FFFFFF;
+  color: #222B2F;
+  text-decoration: underline;
+}
+
+.block3
+{
+  text-align: center;
+  padding: 20px 20px;
+  background: #FFFFFF;
+  height: 260px;
+  color: white;
+}
+
+.block3 p 
+{
+  width: 80%;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+  margin-left:10%;
+  font-size: 0.6em;
+}
+  
+.block3 h2
+{
+  font-family: 'Dosis', sans-serif;
+  color: #222B2F;
+  font-size: 1em;
+}
+
+
+
+.footer 
+{
+  width: 100%;
+  height: 400px;
+  font-size: 20px;
+  background: #E1E5E9;
+  
+}
+
+.footer img
+{
+  
+  display: none;
+}   
+
+.textF 
+{
+  display: none;
+  
+}
+
+.forma
+{
+  width:80%;
+  height: 280px;
+  background: #FFFFFF;
+  float: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  
+}
+
+/* Стили формы */
+#application {
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #DFC6C6;
+    font-size: 0.6em;
+
+}
+select, option
+{
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align-last: center;
+    color: #8DBADD;
+    font-size: 0.6em;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+
+
+
+#applicationName, #applicationEmail, #applicationTelephone:hover
+{
+  cursor: pointer;
+  border-radius: 40px solid #DFC6C6;
+  
+}
+
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::-moz-placeholder  {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+ 
+:-moz-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+ 
+:-ms-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::placeholder {
+    color: #8DBADD;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #DFC6C6;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #8DBADD;
+    }
+
+
+
+
+
+
+
+
+
+
+ /*страница блог*/ 
+ .headerB
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #FFFFFF;
+ }
+
+  .headerB img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoB img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoB img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerB h1 
+{
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+.blockB
+{
+  width: 100%;
+  height: auto;
+  float: left;
+  
+}
+
+.textB
+{
+  width: 80%;
+  height: auto;
+  float: left;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color:#222B2F;
+  font-size: 0.7em;
+  
+}
+  
+.textB h2
+{
+  font-size: 1.2em;
+  font-family: 'Dosis', sans-serif;
+  color:#222B2F;
+}
+
+.photoB
+{
+  display: none;
+}
+
+.footerB 
+{
+  width: 100%;
+  height: 400px;
+  font-size: 20px;
+  background: #E1E5E9;
+}  
+
+.footerB img
+{
+  display: none;
+}
+
+
+.forma
+{
+  width:80%;
+  height: 280px;
+  background: #FFFFFF;
+  float: left;
+  margin-left:10%;
+  margin-top: 5%;
+}
+
+/* Стили формы */
+#application {
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #DFC6C6;
+    font-size: 1em;
+
+}
+select, option
+{
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align-last: center;
+    color: #8DBADD;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#applicationName, #applicationEmail, #applicationTelephone:hover
+{
+  cursor: pointer;
+  border-radius: 40px solid #DFC6C6;
+  
+}
+
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::-moz-placeholder  {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+ 
+:-moz-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+ 
+:-ms-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::placeholder {
+    color: #8DBADD;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #DFC6C6;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #8DBADD;
+    }
+
+  
+
+
+
+
+
+/*страница "о нас"*/ 
+
+ .headerA
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+
+  
+ }
+
+  .headerA img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoA img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoA img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerA h1 
+{
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+.blockA
+{
+  width: 100%;
+  height: 700px;
+  float: left;
+  
+  
+}
+
+.textA
+{
+  width: 80%;
+  height: 500px;
+  float: left;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color:#222B2F;
+  font-size: 0.7em;
+  
+}
+  
+.textA h2
+{
+  font-size: 1em;
+  font-family: 'Dosis', sans-serif;
+  color:#222B2F;
+}
+
+
+
+
+
+
+.footerA 
+{
+  width: 100%;
+  height: 420px;
+  font-size: 20px;
+  background: #E1E5E9;
+  
+  float: left;
+}
+
+.footerA img
+{
+ display: none;
+}  
+
+
+.textF 
+{
+  
+  display: none;
+  
+}
+
+.forma
+{
+  width:80%;
+  height: 280px;
+  background: #FFFFFF;
+  float: left;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+/* Стили формы */
+#application {
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #DFC6C6;
+    font-size: 1em;
+
+}
+select, option
+{
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align-last: center;
+    color: #8DBADD;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#applicationName, #applicationEmail, #applicationTelephone:hover
+{
+  cursor: pointer;
+  border-radius: 40px solid #DFC6C6;
+  
+}
+
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::-moz-placeholder  {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+ 
+:-moz-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+ 
+:-ms-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::placeholder {
+    color: #8DBADD;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #DFC6C6;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #8DBADD;
+    }
+
+
+
+/*страница "party"*/ 
+
+.headerP
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+
+  
+ }
+
+  .headerP img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoP img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoP img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerP h1 
+{
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+.blockP
+{
+  width: 100%;
+  height: 400px;
+  float: left;
+  
+  
+}
+
+.textP
+{
+  width: 80%;
+  height: 400px;
+  float: left;
+  margin-left: 10%;
+  margin-top: 2%;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color:#222B2F;
+  font-size: 0.7em;
+  
+}
+  
+.textP h2
+{
+  font-size: 1em;
+  font-family: 'Dosis', sans-serif;
+  color:#222B2F;
+}
+
+
+
+
+.footerP 
+{
+  width: 100%;
+  height: 420px;
+  font-size: 20px;
+  background: #E1E5E9;
+  
+  float: left;
+}
+
+.footerP img
+{
+ display: none;
+}  
+
+
+.textF 
+{
+  
+  display: none;
+  
+}
+
+.forma
+{
+  width:80%;
+  height: 280px;
+  background: #FFFFFF;
+  float: left;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+.gallery {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em;
+  float: left;
+  margin-left: 12%;
+  
+ 
+}
+
+.gallery > div {
+  position: relative;
+  float: left;
+  padding: 0.3em;
+  
+  padding-bottom: 1%;
+}
+
+.gallery > div > img {
+  display: block;
+  width: 150px;
+  transition: .1s transform;
+  transform: translateZ(0); /* hack */
+}
+
+.gallery > div:hover {
+  z-index: 1;
+}
+
+.gallery > div:hover > img {
+  transform: scale(1.2,1.2);
+  transition: .3s transform;
+}
+
+.cf:before, .cf:after {
+  display: table;
+  
+  line-height: 0;
+}
+
+.cf:after {
+  clear: both;
+}
+
+
+
+
+
+/*страница "dress"*/ 
+
+
+.headerD
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+
+  
+ }
+
+  .headerD img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoD img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoD img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerD h1 
+{
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  text-align: center;
+  color:#222B2F;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+
+
+.footerD 
+{
+  width: 100%;
+  height: 420px;
+  font-size: 20px;
+  background: #E1E5E9;
+  
+  float: left;
+}
+
+.footerD img
+{
+ display: none;
+}  
+
+
+.textF 
+{
+  
+  display: none;
+  
+}
+
+.forma
+{
+  width:80%;
+  height: 280px;
+  background: #FFFFFF;
+  float: left;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+
+
+/*страница contact*/ 
+ .headerC
+ {
+  width: 100%;
+  height: auto;
+  float: left;
+  
+ }
+
+  .headerC img
+  {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+  }
+
+.logoC img
+  {
+    position: absolute;
+    position: fixed;
+    width: 10%;
+    height: auto;
+    right: 5%;
+    top: 2%;
+    opacity: 0.6; 
+  }
+.logoC img:hover
+{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.headerC h1 
+{
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color:#43565E;
+  font-size: 30px;
+  letter-spacing: 0.8em;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+}
+
+.blockC
+{
+  width: 100%;
+  height: auto;
+  float: left;
+  
+}
+
+.textC
+{
+  width: 80%;
+  height: auto;
+  float: left;
+  margin-left: 15%;
+  margin-top: 2%;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-weight: lighter;
+  color:#222B2F;
+  font-size: 0.7em;
+  
+}
+  
+.textC h2
+{
+  font-size: 1em;
+  font-family: 'Dosis', sans-serif;
+  color:#222B2F;
+}
+
+
+.footerC 
+{
+  width: 100%;
+  height: 420px;
+  font-size: 20px;
+  background: #E1E5E9;
+  
+  float: left;
+}
+
+.footerC img
+{
+ 
+ width: 6%;
+ float: left;
+ margin-top: 5%;
+ margin-left: 15%;
+
+}  
+
+
+.textF 
+{
+  
+  display: none;
+  
+}
+
+.forma
+{
+  width:80%;
+  height: 280px;
+  background: #FFFFFF;
+  float: left;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+/* Стили формы */
+#application {
+    width: 100%;
+    margin: 0 auto;
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #DFC6C6;
+    font-size: 1em;
+
+}
+select, option
+{
+    width: 100%;
+    height: 40px;
+    background: none;
+    margin-top: 25px;
+    border: 0.2px solid #fff;
+    border-radius: 40px;
+    text-align-last: center;
+    color: #8DBADD;
+    font-size: 1em;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#applicationName, #applicationEmail, #applicationTelephone:hover
+{
+  cursor: pointer;
+  border-radius: 40px solid #DFC6C6;
+  
+}
+
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::-moz-placeholder  {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+ 
+:-moz-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+ 
+:-ms-input-placeholder {
+    color: #8DBADD;
+    font-family: 'Dosis', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+ 
+::placeholder {
+    color: #8DBADD;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #DFC6C6;
+    border: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #8DBADD;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
